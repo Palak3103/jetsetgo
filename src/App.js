@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import FlightSearch from './Components/FlightSearch';
+import FlightList from './Components/FlighList'
 
 function App() {
+  const [flights, setFlights] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <FlightSearch setFlights={setFlights} />
+      {flights.length > 0 && <FlightList flights={flights} />}
     </div>
   );
 }
