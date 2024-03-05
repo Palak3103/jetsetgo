@@ -1,0 +1,118 @@
+/* FlightList.css */
+
+.container {
+    padding-inline: 2rem;
+  }
+  
+  .stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+    padding-inline: 2rem;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    
+    padding:1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .borderBox {
+    border: 1px solid #0a0d4f;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    height: 65vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid black;
+    gap: 35rem;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .scrollArea {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  
+  .flightRow {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    border-bottom: 1px dotted grey;
+    gap: 35rem;
+  }
+  
+  .flightRow:last-child {
+    border-bottom: none;
+  }
+  
+  .flightInfo {
+    font-size: 1rem;
+  }
+  /* FlightSearch.css */
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  color: #0a0d4f;
+}
+
+.searchIcon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.searchButton {
+  display: flex;
+  justify-content: center;
+  align-items: "center";
+  color: white;
+  background-color: #0a0d4f;
+  border: none;
+  width: 15rem;
+  height: 4rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.searchButton svg {
+  margin-right: 0.5rem;
+}
+.colHeading {
+  color: #0a0d4f;
+}
+
+  
