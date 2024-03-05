@@ -14,7 +14,7 @@
   
   .controls {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 2rem;
     align-items: center;
     margin-bottom: 1rem;
