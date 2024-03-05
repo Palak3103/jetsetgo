@@ -19,6 +19,7 @@ function FlightSearch({ setFlights }) {
       <div style={{ display: "flex", alignItems: 'center' }}>
         <h1 style={{ color: "#0a0d4f" }}>Jet Set Go</h1>
         <img
+          alt="search icon"
           style={{ width: "3rem", height: "3rem" }}
           src={"https://cdn-icons-png.flaticon.com/512/3125/3125713.png"}
         />
